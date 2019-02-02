@@ -1,0 +1,16 @@
+<idea-plugin>
+    <id>com.github.old-horizon.eclipse-style-i18n-plugin</id>
+    <name>Eclipse style i18n</name>
+    <vendor url="https://github.com/old-horizon">old-horizon</vendor>
+
+    <description><![CDATA[
+    I18nize string literals in Eclipse style.
+    ]]></description>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <intentionAction>
+            <className>com.github.old_horizon.idea.EclipseStyleI18nizeAction</className>
+            <category>Java/I18N</category>
+        </intentionAction>
+    </extensions>
+</idea-plugin>
